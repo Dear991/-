@@ -1,0 +1,120 @@
+* {
+	margin: 0;
+	padding: 0;	
+ }
+
+a{
+	text-decoration: none;
+}
+
+h3 {
+	position: absolute;
+	margin: 0 800px;
+}
+
+body {
+	margin: 8% 5%;
+	background: white;
+	border-radius: 12px 12px 10px 10px;
+	box-shadow: 0 0 25px;
+	background-image: url(image/scale_1200.png);
+	min-width: 1240px;
+ }
+
+	/*---HEADER---*/
+
+header{
+	display: flex;
+	background: #4D4545;
+	height: 160px;
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+
+}
+
+.logo{
+	margin: 1px 0 1px 5vw;
+	width: 15%;
+}
+
+.logo_img{
+	height: 150px;
+}
+
+nav{
+	height: 100px;
+	display: flex;
+	width: 78%;
+	margin-right: 3%;
+	padding: 50px 20px;
+}
+
+nav a{
+	color: #000;
+	font-size: 30px;
+	margin: 22px auto;
+	padding: 12px 0.5vw;
+}
+
+nav a:hover{
+	background: #fff;
+	border-radius: 30px;
+}
+
+/*---MAIN---*/
+
+main{
+	background: #FFF;
+	width: 100%;
+	height: auto;
+	min-height: 1000px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 25px;
+}
+.p {
+	text-align: center;
+}
+
+.p img {
+	border-radius: 30px;
+}
+
+.m{
+	text-align: center;
+}
+
+.o{
+	text-align: center;
+}
+.o img{
+	border-radius: 30px;
+	width: 400px;
+}
+
+.d{
+	text-align: center;
+}
+.d img{
+	border-radius: 30px;
+	width: 400px;
+}
+/*------FOOTER------*/
+
+
+footer{
+	height: 100px;
+	width: 100%;
+	background:#fff;
+}
+
+footer h2{
+	text-align: center;
+}
